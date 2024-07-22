@@ -1,0 +1,45 @@
+table tr:nth-child(even) {
+    background-color: #D3D3D3;
+}
+
+table tr:nth-child(odd) {
+    background-color: #FFFFFF;
+}
+
+table th {
+    background-color: #2A2A2A;
+    color: #FFFFFF;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+/* table,
+tr {
+    border: 3px solid;
+} */
+
+thead tr {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+}
+
+th,
+td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr.highlight {
+    background-color: #f2f2f2;
+}
