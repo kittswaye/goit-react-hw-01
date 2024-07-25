@@ -13,7 +13,7 @@ const TransactionHistory = props => {
             </thead>
             <tbody className={css.border}>
                 {props.items.map((item) => {
-                    return (<TransactionHistoryItem item={item} />)
+                    return (<TransactionHistoryItem item={item} key={item.id} />)
                 })}
             </tbody>
         </table>
